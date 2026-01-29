@@ -19,7 +19,7 @@ const UserList = () => {
   return (
     <div className="userlistbody">
     <div className="container">
-      <h2>User List</h2>
+      <h1>User List</h1>
 
       {/* Search bar with button */}
       <div className="search-wrapperss">

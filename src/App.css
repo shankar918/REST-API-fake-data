@@ -10,11 +10,11 @@ body, html {
     
 }
 .userlistbody{
-    background-color: lightsalmon;
+    background-color:lightsteelblue;
     margin-top: -30px;
     display: flex;
 }
-h2{
+h1{
     text-decoration:dotted;
     margin-bottom: 10px;
     margin-left: 40px;
@@ -42,7 +42,7 @@ h2{
 .search-input {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 6px 0 0 6px;
   outline: none;
   width: 100px;
@@ -54,18 +54,20 @@ h2{
   padding: 10px 16px;
   background: #667eea;
   color: white;
-  border: none;
+  
   border-radius: 0 6px 6px 0;
   cursor: pointer;
+  border: solid ;
 }
 
 .search-btn:hover {
   background: #5a67d8;
+  
 }
 
 
 
-/* Full screen center */
+/* Full screen center  login screen */
 .login-wrapper {
   /* min-height: 100%; */
   display: flex;
